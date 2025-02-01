@@ -1,0 +1,24 @@
+
+# for Part 1 and 2
+# Same Machine
+
+# terminal 1
+sudo python3 sniffer_live.py
+# enter interface (e.g. eth0)
+
+# In new terminal 2
+sudo tcpreplay -i <interface> --pps=1200 4.pcap # replace <interface> with your interface (e.g. eth0)
+
+
+
+# for Part 1.4
+# Different VMs
+
+# terminal in WSL 1
+sudo python3 sniffer_live.py 
+# enter interface (e.g. eth0)
+
+# terminal in WSL 2
+sudo tcpreplay -i <interface> --pps=1000 4.pcap # replace <interface> with your interface (e.g. eth0)
+
+
