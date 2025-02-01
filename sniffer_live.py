@@ -132,6 +132,6 @@ def analyze_captured_traffic():
 if __name__ == "__main__":
     interface = input("Enter the network interface to sniff on (e.g., eth0, lo): ")
     print(f"Sniffing on interface: {interface}...")
-    scapy.sniff(iface=interface, prn=packet_callback, store=False, stop_filter=lambda pkt: False) # Capture until stopped manually or tcpreplay finishes.
+    scapy.sniff(iface=interface, prn=packet_callback, store=False, stop_filter=lambda pkt: False) # Capture 
     analyze_captured_traffic() # Analyze metrics after sniffing is done (when tcpreplay finishes).
     print("Sniffing and analysis complete.")
