@@ -6,10 +6,6 @@ Total Packets Transferred: 792185
 Minimum Packet Size: 42 bytes
 Maximum Packet Size: 1514 bytes
 Average Packet Size: 448.90 bytes
-
-Capture Duration: 693.81 seconds
-Capture Rate: 1141.80 packets per second (pps)
-Capture Rate: 4.10 Mbps
 Live packet size histogram saved to live_packet_size_histogram_20250201_172904.png
 
 Part 1.2: Unique Source-Destination Pairs:
