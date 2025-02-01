@@ -11,7 +11,7 @@
     *   **Ubuntu/Debian:** `sudo apt-get update && sudo apt-get install tcpreplay`
     *   **macOS (Homebrew):** `brew install tcpreplay`
     *   **CentOS/RHEL:** `sudo yum install tcpreplay` or `sudo dnf install tcpreplay`
-    *   **Windows:** (Refer to the assignment guidelines or online resources for Windows installation - consider using WSL or a Linux VM for easier installation).
+    *   **Windows:** consider using WSL or a Linux VM for easier installation.
 
 3.  Navigate to working folder
     ```bash
